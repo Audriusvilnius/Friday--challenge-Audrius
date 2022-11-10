@@ -1,0 +1,24 @@
+{
+  "name": "friday--challenge-audrius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "friday": "dead-server --port=4005 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Audriusvilnius/Friday--challenge-Audrius.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Audriusvilnius/Friday--challenge-Audrius/issues"
+  },
+  "homepage": "https://github.com/Audriusvilnius/Friday--challenge-Audrius#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.8"
+  }
+}

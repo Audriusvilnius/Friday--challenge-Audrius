@@ -1,0 +1,27 @@
+:root{
+    --background-color: #E5E5E5;
+    --navigationbar-color: #F7F6FF;
+    --home-icon-color: #02577A;
+    --calendar-icon-color: #C4C4C4;
+    --fe-icon-color: #C4C4C4;
+    --game-icon-color:#C4C4C4;
+    --icon-hover-color:#FFFFFF;
+    --nav-icon-border-color:#C4C4C4;
+    --footer-border-color:#02577A;
+    --footer-text-color:#02577A;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+        
+}

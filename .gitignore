@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+# Personal info
+/node_modules
+/coverage
+/.vscode
+.DS_Store
