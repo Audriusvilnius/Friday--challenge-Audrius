@@ -42,6 +42,7 @@ header:hover {
 }
 
 .nav {
+    transform: translateY(20px);
     position: relative;
     padding-top: 72px;
     position: absolute;
@@ -49,23 +50,45 @@ header:hover {
     left: 11px;
     right: 0;
     top: calc(50% - 57px/2 - 282.5px);
-
-
 }
-
+.icon > .textnav{
+    visibility: hidden;
+    transition: 0.3s;
+}
+.icon-game >.textnav {
+    visibility: hidden;
+}
 .icon {
     transform: translateY(-112px);
-        display: flex;
-        padding-top: 62px;
-        margin-left: 17px;
-        justify-content: flex-start;
-        align-content: center;
-
+    display: flex;
+    padding-top: 62px;
+    margin-left: 17px;
+    justify-content: flex-start;
+    align-content: center;
+    text-decoration: none;
+    background-color: #F7F6FF; 
+    line-height: 150%;
+    text-align: auto auto;
 
 }
-.icon:hover, .icon-game:hover {
+header:hover .textnav{
+    visibility:visible;
+    color: #02577A;
+    transition: 1s;
+
+   
+
+}
+.icon:hover,
+.icon-game:hover {
     background-color: white;
     border-radius: 25px 0px 0px 25px;
+    transition: .2s;
+}
+.icon:hover {
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+    transition: .2s;
 }
 
 
@@ -76,6 +99,8 @@ header:hover {
     margin-left: 17px;
     justify-content: flex-start;
     align-content: center;
+    text-decoration: none;
+    color: #F7F6FF;
 
 }
 
