@@ -1,3 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import'./global.css';
 @import'./loyout.css';
+
+header {
+    width: 100px;
+    height: 906px;
+    left: 0px;
+    top: calc(50% - 906px/2);
+    background: #F7F6FF;
+    transition: 0.7s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+header:hover {
+    width: 206px;
+}
+
+.conteiner {
+    position: relative;
+    margin: 0 auto;
+    height: 906px;
+    left: 0px;
+}
+
+.sep-line {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    top: 110.03px;
+    border: 2px solid #C4C4C4;
+    background-color: #C4C4C4;
+}
+
+.logo { 
+    margin: 0 auto;
+    padding: 52px 0px;
+    width: 68px;
+    height: 34px;
+    left: 16px;    
+}
+
+.nav {
+    position: absolute;
+    padding-top: 72px;
+    position: absolute;
+    height: 56px;
+    left: 11px;
+    right: 0;
+    top: calc(50% - 57px/2 - 282.5px);
+    background: #FFFFFF;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.icon {
+    transform: translateY(-112px);
+    display: flex;
+    padding-top: 62px;
+    margin-left: 26px;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.icon-game {
+    transform: translateY(-112px);
+    display: flex;
+    padding-top: 62px;
+    margin-left: 17px;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.footer {
+    display: flex;
+    padding-top: 11px;
+    height: 24px;
+    left: 626px;
+    top: 882px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #02577A;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sep-footer {
+    position: absolute;
+    width: 346.01px;
+    height: 0px;
+    left: 547px;
+    top: 871px;
+    border: 1px solid #02577A;
+}

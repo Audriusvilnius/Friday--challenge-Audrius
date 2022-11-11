@@ -9,13 +9,13 @@
     --nav-icon-border-color:#C4C4C4;
     --footer-border-color:#02577A;
     --footer-text-color:#02577A;
+    --
 }
 
 body,
 body * {
     margin: 0;
     padding: 0;
-    vertical-align: top;
     box-sizing: border-box;
 }
 
