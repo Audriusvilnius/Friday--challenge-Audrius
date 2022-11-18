@@ -2,11 +2,12 @@
 @import'./global.css';
 @import'./loyout.css';
 
+
 header {
     width: 100px;
     height: 100vh;
     position: fixed;
-    top:0;
+    top: 0;
     left: 0px;
     top: calc(50% - 906px/2);
     background: #F7F6FF;
@@ -53,13 +54,16 @@ header:hover {
     right: 0;
     top: calc(50% - 57px/2 - 282.5px);
 }
-.icon > .textnav{
+
+.icon>.textnav {
     visibility: hidden;
     transition: 0.3s;
 }
-.icon-game >.textnav {
+
+.icon-game>.textnav {
     visibility: hidden;
 }
+
 .icon {
     transform: translateY(-112px);
     display: flex;
@@ -68,25 +72,28 @@ header:hover {
     justify-content: flex-start;
     align-content: center;
     text-decoration: none;
-    background-color: #F7F6FF; 
+    background-color: #F7F6FF;
     line-height: 150%;
     text-align: auto auto;
 
 }
-header:hover .textnav{
-    visibility:visible;
+
+header:hover .textnav {
+    visibility: visible;
     color: #02577A;
     transition: 1s;
 
-   
+
 
 }
+
 .icon:hover,
 .icon-game:hover {
     background-color: white;
     border-radius: 25px 0px 0px 25px;
     transition: .2s;
 }
+
 .icon:hover {
     background-color: white;
     border-radius: 25px 0px 0px 25px;
@@ -111,7 +118,8 @@ header:hover .textnav{
     padding-top: 11px;
     height: 24px;
     left: 626px;
-    top: 882px;
+    top: 100vh;
+    ;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -124,10 +132,11 @@ header:hover .textnav{
 }
 
 .sep-footer {
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 346.01px;
     height: 0px;
-    left: 547px;
-    top: 871px;
+    top: 96vh;
     border: 1px solid #02577A;
 }
