@@ -4,7 +4,9 @@
 
 header {
     width: 100px;
-    height: 906px;
+    height: 100vh;
+    position: fixed;
+    top:0;
     left: 0px;
     top: calc(50% - 906px/2);
     background: #F7F6FF;
